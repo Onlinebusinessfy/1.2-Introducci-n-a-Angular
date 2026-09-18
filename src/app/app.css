@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.contenedor {
+  text-align: center;
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.tarjeta {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta h2 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+.tarjeta p {
+  color: #666;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.confirmacion {
+  color: #27ae60 !important;
+  font-weight: bold;
+}
+
+.cancelar{
+    background-color: #e74c3c;
+    color: white;
+}
+
+.todas {
+  display: block;
+  margin: 20px auto;
+}
+
+.resumen {
+  width: 80%;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.resumen h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.resumen ul {
+  padding-left: 20px;
+}
+
+.resumen li {
+  margin-bottom: 10px;
+}
+
+.resumen p {
+  text-align: center;
+}
